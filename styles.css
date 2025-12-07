@@ -1,0 +1,72 @@
+<style>
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #F6F6F6;
+  color: #222;
+}
+header {
+  background: #8B0000;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.logo { height: 50px; margin-right: 20px; }
+nav a {
+  color: #FBEAEA;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+nav .active {
+  background: #C00000;
+}
+.hero {
+  background: #FBEAEA;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  align-items: center;
+}
+.hero.small { flex-direction: column; text-align: center; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.info-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.info-card img { width: 100%; height: auto; }
+.example { text-align: center; padding: 20px; }
+footer {
+  background: #8B0000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+</style>
